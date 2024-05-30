@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: background-color 1.5s;
+}
+
+#content {
+    margin-top: 5%;
+}
+
+#timeImage {
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.morning {
+    background-color: #f8c5e3;
+}
+
+.afternoon {
+    background-color: #efbe71;
+}
+
+.evening {
+    background-color: #4ea6d6;
+}
+
+.night {
+    background-color: #336680;
+}
