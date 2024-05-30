@@ -1,59 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Time of Day</title>
-    <meta name="robots" content="noindex,nofollow">
-    <style>
-		* {padding:0; margin:0;}
-		html {background-color:#ccc;}
-		body {
-			font-family: Arial, Helvetica, sans-serif;
-			max-width:960px; /* keeps from getting too large on wide screen */
-			width:90%; /* shrink to fit screen */
-			margin:auto; /* center in html element */
-			background-color:#fff;
-			padding:20px;
-			min-height:100%; /* keeps from getting too large on wide screen */
-			}
-		img.flexible {
-			float:right;
-			display:inline-block;
-			padding:20px;
-			max-width:300px; /* actual size of image */
-			width:33%; /* approximate size taken on screen in maximum view */
-		}
-		p {margin:10px;}
-		h1,h2,h3,h4,h5,h6{
-			font-weight:normal;
-			margin:10px;
-			}
-		h1.masthead {margin-top:0;}
-		footer {
-			text-align:center;
-			clear:both; /* ride below all items */
-		}
-    </style>
-</head>
-<body>
-	<header>
-		<h1 class="masthead">Time of Day</h1>
-	</header>
-    <main>
-	 <header><h3>A JavaScript Project by YOUR NAME HERE</h3></header>
-	    <p>Explain what your page does and how it works here!</p>
-	  <img src="http://dummyimage.com/300x400" alt="Time of Day Image" class="flexible">
-     <footer>
-      <p><small>&copy; 2022 by 
-          YOUR NAME HERE, All Rights Reserved ~ 
-          <a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
-          <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
-     </p>
-    </footer>
-  </main>
- <script>
-    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
-    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
- </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What time is it right now?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="content">
+      <img id="timeImage" src="" alt="Image for time of day" />
+      <h1 id="message"></h1>
+      <h2 id="currentTime"></h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
